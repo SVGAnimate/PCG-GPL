@@ -6,3 +6,11 @@ contact_links:
   - name: My GitHub Security Bug Bounty
     url: https://bounty.github.com/
     about: Please report security vulnerabilities here.
+  - name: Label Report
+    description: File a label report.
+    title: "[Label]: "
+    labels: ["bug", "triage"]
+    projects: ["SVGAnimate/PCG-GPL", "arrhes/PCG"]
+    assignees:
+      - svganimate
+
