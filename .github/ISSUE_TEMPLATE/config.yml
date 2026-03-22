@@ -10,9 +10,9 @@ contact_links:
     description: File a bug report.
     title: "[Bug]: "
     labels: ["bug", "triage"]
-    projects: ["octo-org/1", "octo-org/44"]
+    projects: ["SVGAnimate/PCG-GPL", "SVGAnimate/PCG"]
     assignees:
-      - octocat
+      - svganimate
     body:
       - type: markdown
         attributes:
