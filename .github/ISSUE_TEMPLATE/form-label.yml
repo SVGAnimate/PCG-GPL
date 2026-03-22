@@ -1,15 +1,15 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
+name: Label Report
+description: File a label report.
+title: "[Label]: "
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+projects: ["SVGAnimate/PCG-GPL"]
 assignees:
-  - octocat
+  - SVGAnimate
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this label report!
   - type: input
     id: contact
     attributes:
@@ -41,13 +41,17 @@ body:
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What PCG are you seeing the problem on?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - 2026
+        - 2025
+        - 2024
+        - 2023
+        - 2019
+        - 2017
+        - 2016
+        - 2014
   - type: textarea
     id: logs
     attributes:
