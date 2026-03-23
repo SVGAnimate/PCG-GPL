@@ -1,19 +1,15 @@
 <?php
+/**
+ * @domain Developpement
+ * @category Accounting
+ */
 namespace Ingestion\Service\PCG;
 
 /**
  * A Scraper - automate extraction
  */
-class Scraper
+class ScraperFactory
 {
-  static $config;
-  
-  static public function Download($version='latest') {
-  }
-  static public function Extract($version='latest') {
-  }
-  static public function Check($version='latest') {
-  }
-  static public function Push($version='latest') {
+  static public function CreateInstance($kind) {
   }
 }
