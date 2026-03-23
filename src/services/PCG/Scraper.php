@@ -8,7 +8,7 @@ namespace Ingestion\Service\PCG;
 /**
  * A Scraper - automate extraction
  */
-class ScraperFactory
+class Scraper
 {
   static public function CreateInstance($kind) {
   }
