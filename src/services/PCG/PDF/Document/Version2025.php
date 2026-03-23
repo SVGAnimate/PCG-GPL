@@ -1,5 +1,5 @@
 <?php
 
-class Version2025 extends VersionBase
+class Document2025 extends DocumentBase
 {
 }
