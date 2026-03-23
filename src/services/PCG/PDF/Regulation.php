@@ -3,7 +3,7 @@
  * @domain Developpement
  * @category Accounting
  */
-namespace Ingestion\Service\PCG\PDF;
+namespace Ingestion\Services\PCG\PDF;
 
 /**
  * Reglement de type Revision, consolidation, release ?
