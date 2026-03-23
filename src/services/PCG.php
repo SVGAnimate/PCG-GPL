@@ -3,7 +3,7 @@
  * @domain Developpement
  * @category Accounting
  */
-namespace Ingestion\Service;
+namespace Ingestion\Services;
 
 /**
  * Service PCG
@@ -12,12 +12,14 @@ class PCG
 {
   static $config;
   
-  static public function ScrapPdfANC($version='last') {
+  static public function Scrap($version='last') {
   }
-  static public function ScrapPdfGouv($version='last') {
+  static public function Diff($version='last') {
   }
-  static public function ScrapDataGouv($version='last') {
+  static public function Check($version='last') {
   }
-  static public function LookPush($version='last') {
+  static public function Export($version='last') {
+  }
+  static public function Load($version='last') {
   }
 }
