@@ -19,9 +19,9 @@
 namespace PCG\Ingestion;
 
 /**
- * Agent Scrap - A Scraper automate extraction
+ * Agent for Service PCG Scrap - A Scraper automate extraction
  */
-class Scraper
+class PCG
 {
   static $config;
   
