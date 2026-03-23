@@ -10,4 +10,5 @@ namespace Ingestion\Services\PCG\PDF;
  */
 class Regulation
 {
+  public $version;
 }
